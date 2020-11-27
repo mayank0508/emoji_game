@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    background: #222;
+    align-items: center;
+    justify-content: center;
+}
+
+#emoji-btn {
+    font-size: 3rem;
+    filter: grayscale(1);
+    transition: .1s;
+    border: none;
+    cursor: pointer;
+}
+
+#emoji-btn:hover {
+    transform: scale(1.23);
+    filter: grayscale(0);
+}
